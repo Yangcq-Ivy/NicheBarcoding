@@ -1,0 +1,264 @@
+{
+  "@context": [
+    "http://schema.org"
+  ],
+  "@type": "SoftwareSourceCode",
+  "identifier": "NicheBarcoding",
+  "description": "Species Identification using DNA Barcodes Integrated with\n            Environmental Niche Models.",
+  "name": "NicheBarcoding: Niche-model-Based Species Identification",
+  "codeRepository": "https://github.com/ropensci/NicheBarcoding/",
+  "relatedLink": "https://docs.ropensci.org/NicheBarcoding/",
+  "issueTracker": "https://github.com/ropensci/NicheBarcoding/issues/",
+  "license": "https://spdx.org/licenses/GPL-3.0",
+  "version": "0.3.2",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 4.1.0 (2021-05-18)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Cai-qing",
+      "familyName": "Yang",
+      "email": "yangcq_ivy@163.com"
+    }
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Xin-hai",
+      "familyName": "Li",
+      "email": "lixh@ioz.ac.cn"
+      "@id": "https://orcid.org/0000-0003-4514-0149"
+    }
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Michael C.",
+      "familyName": "Orr",
+      "email": "michael.christopher.orr@gmail.com"
+      "@id": "https://orcid.org/0000-0002-9096-3008"
+    }
+  ],
+    "author": [
+    {
+      "@type": "Person",
+      "givenName": "Ai-bing",
+      "familyName": "Zhang",
+      "email": "zhangab2008@mail.cnu.edu.cn",
+      "@id": "https://orcid.org/0000-0003-3450-5421"
+    }
+  ],
+  "contributor": {},
+  "copyrightHolder": [
+    {
+      "@type": "Person",
+      "givenName": "Ai-bing",
+      "familyName": "Zhang",
+      "email": "zhangab2008@mail.cnu.edu.cn",
+      "@id": "https://orcid.org/0000-0003-3450-5421"
+    }
+  ],
+  "funder": {},
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Cai-qing",
+      "familyName": "Yang",
+      "email": "yangcq_ivy@163.com"
+    }
+  ],
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "ape",
+      "name": "ape",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=ape"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "dismo",
+      "name": "dismo",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=dismo"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "e1071",
+      "name": "e1071",      
+      "version": ">= 1.7-7",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=e1071"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "maps",
+      "name": "maps",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=maps"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "pROC",
+      "name": "pROC",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=pROC"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "randomForest",
+      "name": "randomForest",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=randomForest"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "raster",
+      "name": "raster",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=raster"
+    }
+  ],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "rJava",
+      "name": "rJava",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=rJava"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "spider",
+      "name": "spider",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=spider"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "vegan",
+      "name": "vegan",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=vegan"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "R",
+      "name": "R",
+      "version": ">= 2.1.0"
+    }
+  ],
+  "readme": "https://github.com/Yangcq-Ivy/NicheBarcoding/README.md",
+  "fileSize": "6.12 KB",
+  "keywords": [
+    "biodiversity",
+    "DNA barcoding",
+    "integrated taxonomy",
+    "incomplete lineage sorting",
+    "niche model",
+    "phylogenetic niche conservatism"
+  ],
+  "citation": [
+    {
+      "@type": "ScholarlyArticle",
+      "datePublished": "2021",
+      "author": [
+        {
+          "@type": "Person",
+          "givenName": ["Cai-qing"],
+          "familyName": "Yang"
+        }
+      ],
+      "author": [
+        {
+          "@type": "Person",
+          "givenName": ["Xin-hai"],
+          "familyName": "Li"
+        }
+      ],
+      "author": [
+        {
+          "@type": "Person",
+          "givenName": ["Michael", "C."],
+          "familyName": "Orr"
+        }
+      ],
+      "author": [
+        {
+          "@type": "Person",
+          "givenName": ["Ai-bing"],
+          "familyName": "Zhang"
+        }
+      ],
+      "name": "NicheBarcoding: An R package for species identification using DNA barcodes integrated with Environmental Niche Models",
+      "url": "https://github.com/Yangcq-Ivy/NicheBarcoding",
+      "isPartOf": {
+        "@type": "PublicationIssue",
+        "datePublished": "2021",
+        "isPartOf": {
+          "@type": ["PublicationVolume", "Periodical"],
+          "name": "R package version 1.0."
+        }
+      }
+    }
+  ],
+  "review": {
+    "@type": "Review",
+    "url": "https://github.com/ropensci/software-review/issues/483",
+    "provider": "https://ropensci.org"
+  }
+}
