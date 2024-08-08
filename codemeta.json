@@ -22,7 +22,17 @@
       "@type": "Person",
       "givenName": "Cai-qing",
       "familyName": "Yang",
-      "email": "yangcq_ivy@163.com"
+      "email": "yangcq@cnu.edu.cn"
+      "@id": "https://orcid.org/0009-0003-9997-8374"
+    }
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Ying",
+      "familyName": "Wang",
+      "email": "2200801021@cnu.edu.cn"
+      "@id": "https://orcid.org/0000-0002-5789-2850"
     }
   ],
   "author": [
@@ -32,6 +42,24 @@
       "familyName": "Li",
       "email": "lixh@ioz.ac.cn"
       "@id": "https://orcid.org/0000-0003-4514-0149"
+    }
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Jing",
+      "familyName": "Li",
+      "email": "lij@cnu.edu.cn"
+      "@id": "http://orcid.org/0000-0003-3234-8055"
+    }
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Bing",
+      "familyName": "Yang",
+      "email": "yangbingheart@163.com"
+      "@id": "http://orcid.org/0000-0002-9610-1935"
     }
   ],
   "author": [
@@ -48,7 +76,7 @@
       "@type": "Person",
       "givenName": "Ai-bing",
       "familyName": "Zhang",
-      "email": "zhangab2008@mail.cnu.edu.cn",
+      "email": "zhangab2008@cnu.edu.cn",
       "@id": "https://orcid.org/0000-0003-3450-5421"
     }
   ],
@@ -58,7 +86,7 @@
       "@type": "Person",
       "givenName": "Ai-bing",
       "familyName": "Zhang",
-      "email": "zhangab2008@mail.cnu.edu.cn",
+      "email": "zhangab2008@cnu.edu.cn",
       "@id": "https://orcid.org/0000-0003-3450-5421"
     }
   ],
@@ -68,7 +96,8 @@
       "@type": "Person",
       "givenName": "Cai-qing",
       "familyName": "Yang",
-      "email": "yangcq_ivy@163.com"
+      "email": "yangcq@cnu.edu.cn"
+      "@id": "https://orcid.org/0009-0003-9997-8374"
     }
   ],
   "softwareSuggestions": [
@@ -215,7 +244,7 @@
   "citation": [
     {
       "@type": "ScholarlyArticle",
-      "datePublished": "2021",
+      "datePublished": "2024",
       "author": [
         {
           "@type": "Person",
@@ -226,8 +255,29 @@
       "author": [
         {
           "@type": "Person",
+          "givenName": ["Ying"],
+          "familyName": "Wang"
+        }
+      ],
+      "author": [
+        {
+          "@type": "Person",
           "givenName": ["Xin-hai"],
           "familyName": "Li"
+        }
+      ],
+      "author": [
+        {
+          "@type": "Person",
+          "givenName": ["Jing"],
+          "familyName": "Li"
+        }
+      ],
+      "author": [
+        {
+          "@type": "Person",
+          "givenName": ["Bing"],
+          "familyName": "Yang"
         }
       ],
       "author": [
@@ -248,10 +298,10 @@
       "url": "https://github.com/Yangcq-Ivy/NicheBarcoding",
       "isPartOf": {
         "@type": "PublicationIssue",
-        "datePublished": "2021",
+        "datePublished": "2024",
         "isPartOf": {
           "@type": ["PublicationVolume", "Periodical"],
-          "name": "R package version 1.0."
+          "name": "R package version 1.8."
         }
       }
     }
