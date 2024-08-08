@@ -1,4 +1,4 @@
-﻿# NicheBarcoding
+# NicheBarcoding
 
 This is a quick guide to getting started with the two main functions.
 
@@ -85,8 +85,7 @@ ref.seq<-LappetMoths$ref.seq
 que.seq<-LappetMoths$que.seq
 
 NBSI.out<-NBSI(ref.seq,que.seq,ref.add=NULL,
-               independence=TRUE,
-               model="RF",variables="ALL",
+               model="MAXENT",
                en.vir=en.vir,bak.vir=bak.vir)
 NBSI.out
 ```
@@ -99,8 +98,7 @@ When you have an additional reference coordinates information, run:
 ref.add<-LappetMoths$ref.add
 
 NBSI.out2<-NBSI(ref.seq,que.seq,ref.add=ref.add,
-                independence=TRUE,
-                model="RF",variables="SELECT",
+                model="MAXENT",
                 en.vir=en.vir,bak.vir=bak.vir)
 NBSI.out2
 ```
@@ -128,7 +126,7 @@ que.infor<-LappetMoths$que.infor
 
 NBSI2.out<-NBSI2(ref.infor=ref.infor,que.infor=que.infor,
                  barcode.identi.result=barcode.identi.result,
-                 model="RF",variables="SELECT",
+                 model="MAXENT",
                  en.vir=en.vir,bak.vir=bak.vir)
 NBSI2.out
 ```
@@ -155,7 +153,7 @@ que.env<-LappetMoths$que.env
 
 NBSI2.out2<-NBSI2(ref.env=ref.env,que.env=que.env,
                   barcode.identi.result=barcode.identi.result,
-                  model="RF",variables="ALL",
+                  model="MAXENT",
                   en.vir=en.vir,bak.vir=bak.vir)
 NBSI2.out2
 ```
@@ -168,17 +166,18 @@ Users can also read the manual to learn more.
 
 To cite `{NicheBarcoding}`, use:
 
-> Yang, C. Q., X. H. Li, M. C. Orr, A. B. Zhang (2021). NicheBarcoding: An R package for 
-> species identification using DNA barcodes integrated with Environmental Niche Models. 
-> R package version 1.0. <https://github.com/Yangcq-Ivy/NicheBarcoding>
+> Yang, C. Q., Y. Wang, X. H. Li, J. Li, B. Yang, M. C. Orr, A. B. Zhang (2024). 
+> Environmental Niche Models Improve Species Identification in DNA Barcoding. 
+> R package version 1.8. <https://github.com/Yangcq-Ivy/NicheBarcoding>
 
 ## Acknowledgments
 
 We thank reviewer [ldecicco-USGS](https://github.com/ldecicco-USGS) for comments on an early 
 version of the package.
 
-This work was was supported by China National Funds for Distinguished Young Scientists (to Zhang, 
-Grant No. 31425023), by Natural Science Foundation of China (to Zhang, Grant No. 31071963 and 
-31272340), Program for Changjiang Scholars and Innovative Research Team in University (IRT13081), 
-and Science and Technology Foundation Project (2012FY110803). 
-
+This research was supported by the Natural Science Foundation of China (32200343, 32170421), 
+Beijing Municipal Natural Science Foundation (5232001), Chinese Academy of Sciences President’s 
+International Fellowship Initiative program (2024PVC0046), Support Project of High-level Teachers 
+in Beijing Municipal Universities in the Period of 14th Five–year Plan (BPHR20220114), National 
+Key Research and Development Program of China (2023YFC2606600), and Academy for Multidisciplinary 
+Studies, Capital Normal University.
