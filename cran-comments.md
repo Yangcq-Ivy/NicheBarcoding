@@ -4,16 +4,9 @@
 * using session charset: CP936
 
 ## R CMD check results
-There were no ERRORs,or WARNING.
-There was 1 NOTE:
+There were no ERRORs, WARNING, or NOTE.
 
-checking installed package size ... NOTE
-    installed size is 24.9Mb
-    sub-directories of 1Mb or more:
-      data  24.7Mb
-
-* checking CRAN incoming feasibility ... NOTE
-Maintainer: 'Cai-qing YANG <yangcq_ivy@163.com>'
+Maintainer: 'Cai-qing YANG <yangcq@cnu.edu.cn>'
 New submission
 
 ## Downstream dependencies
