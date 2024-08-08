@@ -1,0 +1,16 @@
+citHeader("To cite excluder in publications, please use:")
+
+citEntry(entry =  "article",
+         title        = "Environmental Niche Models Improve Species Identification in DNA Barcoding",
+         author       = personList(as.person("Cai-qing Yang")),
+         author       = personList(as.person("Ying Wang")),
+         author       = personList(as.person("Xin-hai Li")),
+         author       = personList(as.person("Jing Li")),
+         author       = personList(as.person("Bing Yang")),
+         author       = personList(as.person("Michael. C. Orr")),
+         author       = personList(as.person("Ai-bing Zhang")),
+         year         = "2024",
+         journal      = "R package version 1.8.",
+         url          = "https://github.com/Yangcq-Ivy/NicheBarcoding",
+         textVersion  = "Yang, C. Q., Y. Wang, X. H. Li, J. Li, B. Yang, M. C. Orr, A. B. Zhang (2024). Environmental Niche Models Improve Species Identification in DNA Barcoding. R package version 1.8. https://github.com/Yangcq-Ivy/NicheBarcoding"
+)
